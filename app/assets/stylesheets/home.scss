@@ -1,0 +1,88 @@
+@keyframes fadeOrange {
+    from {background-color: #3b3b3b;}
+    to {background-color: #e88521;}
+}
+
+@keyframes fadeGray {
+    from {background-color: #e88521;}
+    to {background-color: #3b3b3b;}
+}
+
+.home-main-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b3b3b;
+}
+
+.home-about-text-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.north-about-title {
+    display: flex;
+    justify-content: center;
+    color: #e88521;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.north-about-body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 600px;
+    line-height: 1.7;
+    margin: 10px;
+}
+
+.home-pictures-main-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.home-pic-grapefruitsalad {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+
+.home-pic-drink {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+
+.home-pic-boluclac {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+
+.view-menus-button {
+    color: #e88521;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px solid #e88521;
+    border-radius: 35px;
+    margin-bottom: 165px;
+    animation: fadeGray 0.3s;
+}
+
+.view-menus-button:hover{
+    cursor: pointer;
+    animation: fadeOrange 0.3s;
+    color: white;
+    background-color: #e88521;
+}
