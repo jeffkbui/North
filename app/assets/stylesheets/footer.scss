@@ -1,0 +1,28 @@
+.footer-main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 480px;
+    background-color: #e88521;
+}
+
+.footer-contact-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+.footer-contact-header {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+
+.footer-contact-body {
+    margin-bottom: 29px;
+}

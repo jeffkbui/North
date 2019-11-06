@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeNavBar from './HomeNavBar';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 class Homepage extends React.Component {
     componentDidMount() {
@@ -36,6 +37,7 @@ class Homepage extends React.Component {
                         VIEW MENUS
                     </Link>
                 </div>
+                <Footer/>
             </div>
         );
     }
