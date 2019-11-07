@@ -329,7 +329,7 @@ function (_React$Component) {
         className: "footer-right-side-main-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         className: "reserve-now-button",
-        href: ""
+        href: "https://www.yelp.com/reservations/north-los-gatos?from_reserve_now=1"
       }, "Reserve Now")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-contact-header"
       }, "HOURS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

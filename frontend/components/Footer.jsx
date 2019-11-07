@@ -24,7 +24,7 @@ class Footer extends React.Component {
                 </div>
                 <div className='footer-right-side-main-container'>
                     <div>
-                        <a className='reserve-now-button' href="">Reserve Now</a>
+                        <a className='reserve-now-button' href="https://www.yelp.com/reservations/north-los-gatos?from_reserve_now=1">Reserve Now</a>
                     </div>
                     <div className='footer-contact-header'>
                         HOURS
