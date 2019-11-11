@@ -9,13 +9,13 @@ class MenuNavBar extends React.Component {
                     <img className='navbar-main-logo' src="https://s3-us-west-1.amazonaws.com/north-losgatos.com/LOGONOBLACKBACKGROUND.png" alt="home-logo"/>
                 </Link>
                 <div className='home-navbar-options-container'>
-                    <Link to='/' className='home-navbar-option-item-normal'>
+                    <Link to='/' className='menu-navbar-option-item-normal'>
                         HOME
                     </Link>
-                    <Link to='/menu' className='home-navbar-option-item-focused'>
+                    <Link to='/menu' className='menu-navbar-option-item-focused'>
                         MENU
                     </Link>
-                    <Link to='/contact' className='home-navbar-option-item-normal'>
+                    <Link to='/contact' className='menu-navbar-option-item-normal'>
                         CONTACT
                     </Link>
                 </div>

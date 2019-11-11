@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from {color: #e88521;}
+    to {color: black;}
+}
+
+@keyframes fadeOut {
+    from {color: black;}
+    to {color: #e88521;}
+}
+
+.contact-navbar-option-item-normal {
+    color: #e88521;
+    text-decoration: none;
+    animation: fadeOut 0.3s;
+}
+
+.contact-navbar-option-item-normal:hover {
+    animation: fadeIn 0.3s;
+    color:black;
+    cursor: pointer;
+}
+
+.contact-navbar-option-item-focused {
+    color:black;
+    text-decoration: none;
+}
+
+.contact-navbar-option-item-focused:hover {
+    cursor: pointer;
+}

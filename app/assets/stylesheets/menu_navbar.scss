@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from {color: #e88521;}
+    to {color: black;}
+}
+
+@keyframes fadeOut {
+    from {color: black;}
+    to {color: #e88521;}
+}
+
+.menu-navbar-option-item-normal {
+    color: #e88521;
+    text-decoration: none;
+    animation: fadeOut 0.3s;
+}
+
+.menu-navbar-option-item-normal:hover {
+    animation: fadeIn 0.3s;
+    color:black;
+    cursor: pointer;
+}
+
+.menu-navbar-option-item-focused {
+    color:black;
+    text-decoration: none;
+}
+
+.menu-navbar-option-item-focused:hover {
+    cursor: pointer;
+}

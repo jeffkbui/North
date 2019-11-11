@@ -9,13 +9,13 @@ class ContactNavBar extends React.Component {
                     <img className='navbar-main-logo' src="https://s3-us-west-1.amazonaws.com/north-losgatos.com/LOGONOBLACKBACKGROUND.png" alt="home-logo"/>
                 </Link>
                 <div className='home-navbar-options-container'>
-                    <Link to='/' className='home-navbar-option-item-normal'>
+                    <Link to='/' className='contact-navbar-option-item-normal'>
                         HOME
                     </Link>
-                    <Link to='/menu' className='home-navbar-option-item-normal'>
+                    <Link to='/menu' className='contact-navbar-option-item-normal'>
                         MENU
                     </Link>
-                    <Link to='/contact' className='home-navbar-option-item-focused'>
+                    <Link to='/contact' className='contact-navbar-option-item-focused'>
                         CONTACT
                     </Link>
                 </div>
