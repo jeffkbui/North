@@ -12,7 +12,7 @@ class Homepage extends React.Component {
         return (
             <div>
                 <HomeNavBar/>
-                <h1 className='homepage-splash'></h1>
+                <img className='home-splash-image' src="https://s3-us-west-1.amazonaws.com/north-losgatos.com/iStock-599903776.jpg" alt=""/>
                 <div className='home-main-body-container'>
                     <div className='home-about-text-container'>
                         <div className='north-about-title'>
