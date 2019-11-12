@@ -592,7 +592,8 @@ function (_React$Component) {
         className: "menu-body-main-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "menu-body-content-container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://s3-us-west-1.amazonaws.com/north-losgatos.com/LUNCH5.19_Layout+1.pdf",
         className: "menu-item-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "menu-item-image",
@@ -600,7 +601,8 @@ function (_React$Component) {
         alt: "lunch-menu"
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "menu-item-title"
-      }, "LUNCH")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "LUNCH")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://s3-us-west-1.amazonaws.com/north-losgatos.com/BRUNCH10.19.pdf",
         className: "menu-item-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "menu-item-image",
@@ -610,7 +612,8 @@ function (_React$Component) {
         className: "menu-item-title"
       }, "WEEKEND BRUNCH"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "menu-body-content-container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://s3-us-west-1.amazonaws.com/north-losgatos.com/Dinner_Menu.pdf",
         className: "menu-item-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "menu-item-image",
@@ -618,7 +621,8 @@ function (_React$Component) {
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "menu-item-title"
-      }, "DINNER")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "DINNER")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://s3-us-west-1.amazonaws.com/north-losgatos.com/WineList10.2019_Layout+1.pdf",
         className: "menu-item-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         className: "menu-item-image",
