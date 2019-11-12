@@ -6,12 +6,27 @@ class ContactUs extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
     }
-    
+
     render() {
         return (
             <div>
                 <ContactNavBar/>
-                <h1 className='contact-main-container'></h1>
+                <div className='contact-main-container'>
+                    <div className='contact-body-container'>
+                        <div className='contact-body-title'>
+                            CONTACT
+                        </div>
+                        <div className='contact-body-item-1'>
+                            Have a question?
+                        </div>
+                        <div className='contact-body-item'>
+                            Give us a call at 408-884-8309
+                        </div>
+                        <div className='contact-body-item'>
+                            Or send us an email at info@north-losgatos.com
+                        </div>
+                    </div>
+                </div>
                 <Footer/>
             </div>
         );

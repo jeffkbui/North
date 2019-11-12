@@ -258,9 +258,19 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ContactNavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ContactNavBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "contact-main-container"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-body-container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-body-title"
+      }, "CONTACT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-body-item-1"
+      }, "Have a question?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-body-item"
+      }, "Give us a call at 408-884-8309"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "contact-body-item"
+      }, "Or send us an email at info@north-losgatos.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
     }
   }]);
 
