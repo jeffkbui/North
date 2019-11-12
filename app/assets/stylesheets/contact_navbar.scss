@@ -1,9 +1,9 @@
-@keyframes fadeIn {
+@keyframes fadeInContact {
     from {color: #e88521;}
     to {color: black;}
 }
 
-@keyframes fadeOut {
+@keyframes fadeOutContact {
     from {color: black;}
     to {color: #e88521;}
 }
@@ -11,11 +11,11 @@
 .contact-navbar-option-item-normal {
     color: #e88521;
     text-decoration: none;
-    animation: fadeOut 0.3s;
+    animation: fadeOutContact 0.3s;
 }
 
 .contact-navbar-option-item-normal:hover {
-    animation: fadeIn 0.3s;
+    animation: fadeInContact 0.3s;
     color:black;
     cursor: pointer;
 }

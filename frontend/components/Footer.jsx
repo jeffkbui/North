@@ -7,7 +7,15 @@ class Footer extends React.Component {
             <div className='footer-main-container'>
                 <div className='footer-contact-container'>
                     <div className='social-media-links-container'>
-                        Social Media Links
+                        <a href="https://www.instagram.com/north.losgatos/">
+                            <img className='instagram' src="http://www.yenstudio.co.uk/wp-content/uploads/2017/06/instagram-logo-white-300x300.png" alt=""/>
+                        </a>
+                        <a href="https://www.facebook.com/north.losgatos">
+                            <img className='facebook' src="https://www.ameswessex.com/wp-content/uploads/2017/05/facebook-logo-png-white-i6-300x300.png" alt=""/>
+                        </a>
+                        <a href="mailto:info@north-losgatos.com">
+                            <img className='email' src="https://www.stickpng.com/assets/images/584856b4e0bb315b0f7675ac.png" alt=""/>
+                        </a>
                     </div>
                     <div className='footer-contact-header'>
                         CONTACT

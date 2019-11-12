@@ -324,7 +324,25 @@ function (_React$Component) {
         className: "footer-contact-container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "social-media-links-container"
-      }, "Social Media Links"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.instagram.com/north.losgatos/"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "instagram",
+        src: "http://www.yenstudio.co.uk/wp-content/uploads/2017/06/instagram-logo-white-300x300.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "https://www.facebook.com/north.losgatos"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "facebook",
+        src: "https://www.ameswessex.com/wp-content/uploads/2017/05/facebook-logo-png-white-i6-300x300.png",
+        alt: ""
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "mailto:info@north-losgatos.com"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "email",
+        src: "https://www.stickpng.com/assets/images/584856b4e0bb315b0f7675ac.png",
+        alt: ""
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-contact-header"
       }, "CONTACT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "footer-contact-body"
