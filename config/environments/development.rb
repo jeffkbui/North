@@ -7,18 +7,18 @@ Rails.application.configure do
   config.cache_classes = false
 
   #mailer contact us form
-  config.action_mailer.default_url_options = { :host => ‘localhost:3001’ }
-  config.action_mailer.raise_delivery_errors = true
+  # config.action_mailer.default_url_options = { :host => ‘localhost:3000’ }
+  # config.action_mailer.raise_delivery_errors = true
 
-  config.action_mailer.smtp_settings = {
-    address: 'smtp.gmail.com',
-    port: 587,
-    domain: ENV['GMAIL_DOMAIN'],
-    authentication: 'plain',
-    enable_starttls_auto: true,
-    user_name: ENV['GMAIL_USERNAME'],
-    password: ENV['GMAIL_PASSWORD']
-  }
+  # config.action_mailer.smtp_settings = {
+  #   address: 'smtp.gmail.com',
+  #   port: 587,
+  #   domain: ENV['GMAIL_DOMAIN'],
+  #   authentication: 'plain',
+  #   enable_starttls_auto: true,
+  #   user_name: ENV['GMAIL_USERNAME'],
+  #   password: ENV['GMAIL_PASSWORD']
+  # }
 
   # Do not eager load code on boot.
   config.eager_load = false
